@@ -1,0 +1,56 @@
+# Research Paper Companion AI - Requirements
+# Install via: pip install -r requirements.txt
+
+# Core Deep Learning
+torch>=2.1.0
+torchvision
+torchaudio
+
+# Data Collection
+arxiv
+tqdm
+numpy
+pandas
+
+# Machine Learning Utilities
+scikit-learn
+
+# Hugging Face Ecosystem
+transformers>=4.36.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+tokenizers>=0.15.0
+sentence-transformers>=2.2.0
+peft>=0.7.0  # For LoRA/QLoRA fine-tuning
+
+# LangChain for RAG
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-huggingface>=0.0.1
+langchain-text-splitters>=0.0.1
+
+# Vector Store
+faiss-gpu>=1.7.0  # Use faiss-cpu if no GPU
+
+# PDF Processing
+pymupdf>=1.23.0
+
+# Evaluation
+rouge-score>=0.1.2
+evaluate>=0.4.0
+
+# Logging & Visualization
+tensorboard>=2.15.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Hybrid Retrieval (Optional)
+rank-bm25>=0.2.2
+
+# Utilities
+python-dotenv>=1.0.0
+jsonlines>=4.0.0
+
+#source /home/sertv2cs/Desktop/gen_ai_project/venv/bin/activate && cd /home/sertv2cs/Desktop/gen_ai_project/paper_companion_ai/api && python3 server.py
+
+#cd /home/sertv2cs/Desktop/gen_ai_project/paper_companion_ai/web && npm run dev
